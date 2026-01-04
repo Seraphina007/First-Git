@@ -1,0 +1,96 @@
+
+body { 
+  background-image: url("../images/co.png");
+   background-repeat: no-repeat center center fixed;  
+    text-align: center;
+    background-position: center; 
+    background-size: cover;
+    padding-top: 50px; color:rgb(21, 205, 198);
+
+}
+
+
+body::after {
+    pointer-events: none;
+}
+h2{
+
+    color: rgb(186, 24, 148); 
+    text-align:center;
+}  
+h2:hover {
+color: rgb(139, 45, 34); 
+text-shadow: #752da8;
+}
+
+h3{
+    color: rgb(215, 233, 17);
+    text-align: center;
+}
+h3:hover { color: aqua;
+    text-shadow: #284aba;
+
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    width: 90%;
+    max-width:1000px;
+    margin: 50px auto;
+}
+
+.box {
+  background-image: url("../images/cos.png");
+background-color:transparent;
+border-radius: 10px;
+padding: 40px;
+text-align: center;
+font-size: 18px;
+border: 2px solid #752da8;
+transition: 0.3s;
+
+box-shadow: 10px #284aba;
+} 
+
+.box-text {
+    color: rgb(207, 153, 106);
+    text-shadow: 10px  blue; 
+
+} 
+.box:hover .box-text {
+color: #73f880; 
+text-shadow: 8px #5c213f;
+transition: all 0.3s ease;
+
+}
+
+.box:hover {
+
+    background-attachment:fixed; 
+    transform: scale(1.1); 
+    background-image:url("../images/cos.png"); 
+
+} 
+
+footer {
+
+color: rgb(213, 96, 199);
+background-color:   rgb(38, 3, 3);
+text-align: center;
+padding: 0px 0px;
+width: 100%; 
+position: absolute;
+
+
+    box-shadow: 0 0 10px #5c213f; /* Pink neon glow */
+} 
+footer:hover { 
+
+    color: aqua;
+background-color: rgb(80, 84, 25);
+
+}
